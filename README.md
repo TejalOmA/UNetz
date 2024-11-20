@@ -1,6 +1,6 @@
 # 🧠 Brain Tumor Segmentation using U-Net  
 
-This repository implements a **U-Net-based deep learning model** for brain tumor segmentation from MRI images using the **BraTS’20 dataset**. The model demonstrates how U-Net can effectively handle segmentation tasks, particularly when working with a limited dataset, and addresses challenges like class imbalance and spatial resolution preservation. 🚀  
+This repository features a **U-Net-based deep learning model** for segmenting brain tumors in MRI images, using the **BraTS'20 dataset**. The model is designed to perform well even with limited data, tackling challenges like class imbalance and preserving spatial details in the images. By using U-Net, it shows how deep learning can be applied effectively to medical image segmentation, specifically for brain tumor detection.
 
 ---
 
