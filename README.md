@@ -33,17 +33,13 @@ train.py - Script for training the U-Net model.
 test.py - Script for testing and visualizing results.
 
 ## 🌟 Results
-**🏅 F1-Score:** 78%
-**🔬 Future Work:** Explore ResUNet architecture and experiment with transfer learning to enhance accuracy.
+- **🏅 F1-Score:** 78%
+- **🔬 Future Work:** Explore ResUNet architecture and experiment with transfer learning to enhance accuracy.
 
 ## 🛠️ Dependencies
 
-Python >= 3.8
-
-PyTorch >= 1.7
-
-NumPy
-
-Matplotlib
-
-Scikit-learn
+- Python >= 3.8
+- PyTorch >= 1.7
+- NumPy
+- Matplotlib
+- Scikit-learn
