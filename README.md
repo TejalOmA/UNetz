@@ -37,8 +37,13 @@ test.py - Script for testing and visualizing results.
 **🔬 Future Work:** Explore ResUNet architecture and experiment with transfer learning to enhance accuracy.
 
 ## 🛠️ Dependencies
+
 Python >= 3.8
+
 PyTorch >= 1.7
+
 NumPy
+
 Matplotlib
+
 Scikit-learn
