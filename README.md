@@ -26,11 +26,30 @@ Once trained, evaluate the model with:
   ```
 
 ## 📂 Project Structure
-data/ - Directory for the BraTS’20 dataset.
-models/ - Contains U-Net implementation and saved models.
-results/ - Output predictions and performance metrics.
-train.py - Script for training the U-Net model.
-test.py - Script for testing and visualizing results.
+```plaintext
+   /Unet for Segmentation
+   │
+   ├── /Unet/                    # U-Net model architecture code
+   │   ├── /model.py             # U-Net model definition
+   │   └── /model.txt            # Model configuration/details   
+   │
+   ├── /Dataset/                 # BraTS'20 dataset
+   │   ├── /images/              # MRI images
+   │   └── /masks/               # Segmentation masks (tumor regions)
+   │
+   ├── /preds/                   # Model predictions and results
+   │   └── /image_sets/          # Original image, predicted mask, and ground truth mask
+   │
+   ├── /src/                     # Scripts for data, training, and evaluation
+   │   ├── /data.py              # Data loading and preprocessing
+   │   ├── /loss_fn.py           # Loss function definitions
+   │   ├── /test.py              # Testing and evaluation script
+   │   ├── /train.py             # Training script
+   │   └── /utils.py             # Utility functions
+   │
+   └── README.md                 # Project documentation
+
+```
 
 ## 🌟 Results
 - **🏅 F1-Score:** 78%
